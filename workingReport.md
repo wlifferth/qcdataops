@@ -4,5 +4,7 @@
 Todo:  
 + Sum all contributions year before and after
 + Find average contributions per candidate, compare distributions
-#### Did the makeup of contributions (individuals vs PACs) change in this time frame?
+#### Did the makeup of contributions (individuals vs PACs) change in this time frame?  
+Todo:
++ Plot percentage of total contributions that were PAC driver and those that were Individual driven
 #### If there was some trend from cycle to cycle (periodicity, linear), how was that trend effected in this time frame?
