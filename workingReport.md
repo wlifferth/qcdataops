@@ -9,9 +9,15 @@ I am not a legal scholar, but my working high level framework is as follows:
 
 #### Did the overall amount of money flowing to federal congressional campaigns change from before CUvFEC to after it?  
 Todo:  
-+ Sum all contributions year before and after
-+ Find average contributions per candidate, compare distributions
++ Sum all contributions year before and after  
+
+![Total Congressional Campaign Contributions Over Time](q1/q1-TotalContributions.png)
++ Find average contributions per candidate, compare distributions  
+
+![Total Congressional Campaign Contributions Over Time](q1/q1-DistributionOfCandidateTotals.png)
 #### Did the makeup of contributions (individuals vs PACs) change in this time frame?  
 Todo:
-+ Plot percentage of total contributions that were PAC driver and those that were Individual driven
++ Plot percentage of total contributions that were PAC driver and those that were Individual driven  
+
+![Makeup of Total Congressional Campaign Contributions Over Time](q1/q1-MakeupOfTotalContributions.png)
 #### If there was some trend from cycle to cycle (periodicity, linear), how was that trend effected in this time frame?
