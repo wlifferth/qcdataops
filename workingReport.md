@@ -20,4 +20,9 @@ Todo:
 + Plot percentage of total contributions that were PAC driver and those that were Individual driven  
 
 ![Makeup of Total Congressional Campaign Contributions Over Time](q1/q1-MakeupOfTotalContributions.png)
+By inspection two important things are clear. First, it is evident that overall (from before 2010 to after 2010) the general makeup of individual and PAC spending was unaffected. We also see that in presidential years (those divisible by 4) you see a higher percentage of spending coming from individuals. This may suggest that midterms are less engaging for individuals, yet institutions (PACs) see this as an opportunity for their contributions to mean more (or at very least they don't discriminate, so in response their contributions make up a higher percentage).  
+
 #### If there was some trend from cycle to cycle (periodicity, linear), how was that trend effected in this time frame?
+From the initial exploration into the dataset it seems that there are some clear trends; presidential election years (those years divisible by 4) see distinct increases in spending from those election years adjacent to them, and in general there is an increase in spending. That being said there are many factors that cannot be effectively captured, quantified, or explained. The particular thing we want to measure (the effect of the 'Citizens United vs FEC' supreme court decision) is convenient because it has distinct temporal bounds.  
+
+In order to test this idea we can model campaign donations as a function of year (an integer) and whether or not it was a presidential race (a boolean). Further more because the exploration of spending make up seems to suggest that individuals and PACs respond differently to the presence of a presidential race, we could model total campaign contributions as a summation of independent models of individual contributions and PAC contributions. 
